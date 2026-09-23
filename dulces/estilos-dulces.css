@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#fff8f4;
+}
+
+header{
+    background:#ff4fa1;
+    color:white;
+    text-align:center;
+    padding:60px;
+}
+
+main{
+    width:90%;
+    max-width:700px;
+    margin:40px auto;
+}
+
+.categoria{
+    display:block;
+    background:white;
+    color:#333;
+    text-decoration:none;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    font-size:22px;
+    transition:.3s;
+}
+
+.categoria:hover{
+    transform:translateY(-5px);
+    background:#ffe4f2;
+}
